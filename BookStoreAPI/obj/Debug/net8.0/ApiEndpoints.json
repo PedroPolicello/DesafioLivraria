@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "BookStoreAPI.Controllers.BookStoreController",
+    "Method": "CreateBook",
+    "RelativePath": "api/bookstore",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BookStoreAPI.Communication.Requests.RequestCreateBook",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BookStoreAPI.Communication.Responses.ResponseCreateBook",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      }
+    ]
+  },
+  {
+    "ContainingType": "BookStoreAPI.Controllers.BookStoreController",
+    "Method": "GetAllBooks",
+    "RelativePath": "api/bookstore",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BookStoreAPI.Book, BookStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BookStoreAPI.Controllers.BookStoreController",
+    "Method": "EditBookInfo",
+    "RelativePath": "api/bookstore",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BookStoreAPI.Communication.Requests.RequestCreateBook",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ]
+  },
+  {
+    "ContainingType": "BookStoreAPI.Controllers.BookStoreController",
+    "Method": "DeleteBook",
+    "RelativePath": "api/bookstore",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ]
+  }
+]
